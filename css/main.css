@@ -9,13 +9,13 @@ body{
 }
 nav{
     background-color:#02918c;
-     min-width: max-content;
+    display: flex;
 }
 
 .container{
   
     
-    
+    width:1170px;
     margin: auto;
 }
  
