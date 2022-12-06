@@ -75,3 +75,7 @@ div.logo img{
     padding: 25px;;
 
 }
+nav ul li a:hover , nav ul li a:active{
+    color: black;
+    background-color:#cfc91d;
+}
