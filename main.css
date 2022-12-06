@@ -4,45 +4,61 @@
     box-sizing: border-box;
     border: 0;
 }
-.container{
+nav{
     background-color: blue;
-
 }
-.row{
+
+.container{
+  
+    
     width: 1170px;
+    margin: auto;
+}
+ 
+
+
+
+.row{
+   
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     
-    
-   
    
 }
+
+   
+   
+
  nav div.logo{
    width: 15%;
     background-color: azure;
+
 }
  nav div.menu{
-    width: 75%;
+    width: 85%;
     height: auto;
-    justify-content: flex-end;
+    
     background-color: brown;
     align-items: center;
 }
 ul{
     list-style-type: none;
 }
+    
 a{
     text-decoration: none;
     display: inline-block;
 }
+nav ul{
+    justify-content: flex-end;
+} 
 nav ul li a{
     color: black;
     padding: 25px;
     text-transform: uppercase;
-    top:25%;
-    bottom: 25%;
-
+   
+    
+   
     
 
 }
@@ -50,3 +66,4 @@ div.logo img{
     padding: 25px;;
 
 }
+
