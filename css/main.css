@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -9,23 +11,24 @@ body{
 }
 nav{
     background-color:#02918c;
+    border-radius: 10px solid blue;
     display: flex;
-}
+   
+}  
 
 .container{
   
-    
-    width:1170px;
-    margin: auto;
-}
+   width: 1170px;
+   margin: auto;
+   
  
-
+}
 
 
 .row{
    
     display: flex;
-    flex-wrap: wrap;
+    
     
    
 }
@@ -38,8 +41,11 @@ nav{
   
 }
  nav div.menu {
-    width: 85%;
-    height: auto;
+  
+    width: 75%;
+    
+ 
+    
     
  
     
@@ -64,18 +70,119 @@ nav ul li a{
     text-transform: uppercase;
 }   
     
- ul{
+nav ul{
     justify-content: flex-end;
+    margin-left: 66px;
+    
+    
+ } 
 
- }  
+
+nav div.logo img{
+    padding: 25px;
+    display: inline-block;
    
 
-
-div.logo img{
-    padding: 25px;;
-
 }
-nav ul li a:hover , nav ul li a:active{
+ nav ul li a:hover , nav ul li a:active{
     color: black;
     background-color:#cfc91d;
+ }
+ section.banner{
+    background-image:url(../image/banner.jpg);
+    background-size: cover;
+    height: 728px;
+    position: relative;
+    opacity: 0.70;
+ }
+ #banner-design{
+    text-align: center;
+   
+    padding-top: 217px;
+    padding-bottom: 217px;
+    
+ }
+
+    
+    
+ .banner .container img{
+    display: block;
+    margin: auto;
+ }
+ .banner .container a{
+    display: block;
+ }
+ section .card{
+    width: 100%;
+ }
+ section.about{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+ }
+ .card{
+    padding-top:119px ;
+ }
+ .banner h3{
+    font-size: 30px;
+
+ }
+ .banner h1{
+    font-size: 68px;
+    font-weight: 800;
+     text-transform: uppercase;
+     letter-spacing: 30px;
+
+ }
+ .banner p{
+    font-size: 18px;
+   
+ } 
+ .banner-text{
+    color:#ffffff;
+
+ }
+.banner a{
+    background-color: #cfc91d;
+    color:#0b1016;
+    letter-spacing: 5px;
+    width: 196px;
+    margin: auto;
+    padding: 20px;
+    margin-top :25px; 
+    font-size: 14px;
 }
+.about-writting h2{
+    color: #02918c;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 800;
+}
+section .about-writting p {
+    color:#7e8287; 
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-writting p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+.card h6{
+    color:#7e8287; 
+    font-size: 16px;
+    font-weight: 800;
+}
+.card-border{
+      border-right: 2px solid;
+}
+.crd-p{
+    font-size: 11px;
+    font-weight: 400;
+    color:#7e8287; 
+    padding: 30px;
+    
+}
+
+
+
