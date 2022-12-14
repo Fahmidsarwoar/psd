@@ -17,7 +17,6 @@ body{
  section.banner{
     background-image:url(../image/banner.jpg);
     height: 728px;
-    width: auto;
    
     background-size: cover;
     opacity: 0.70;
