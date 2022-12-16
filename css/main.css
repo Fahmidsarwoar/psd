@@ -158,6 +158,7 @@ form textarea{
     border-bottom: 2px solid white;
     width: 100%;
     color: white;
+    padding: 69px; 
     
 
 }
@@ -226,3 +227,23 @@ footer{
      text-align: center;
     
 }
+/* padding start */
+
+.one-hundrad{
+    padding-top: 100px;
+}
+.card-padding{
+    padding-top: 120px;
+}
+section.my-work{
+    padding-top: 150px;
+}
+section.images{
+    padding-top :82px;
+}
+section.contact-form{
+    padding-top: 72px;
+}
+
+/* padding end */
+ 
