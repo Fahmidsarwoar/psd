@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -11,31 +10,221 @@ body{
 .container{
     width: 1170px;
 }
+.color-white{
+    color:#ffffff;
+
+}
+.color-blue{
+    color:#02918c;
+    text-transform: uppercase;
+}
+
+.describe{
+    color:#7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+.middle{
+    text-align: center;
+}
+.title{
+    font-size: 16px;
+    font-weight: 900;
+   
+}
+.card-p{
+    font-size: 11px;
+    font-weight: 800;
+}   
+
  nav{
     background-color:#02918c;
-}
+ }
+ nav a:hover,
+ nav a:hover:active{
+background-color:   #cfc91d;
+
+
+   
+    
+ }
  section.banner{
     background-image:url(../image/banner.jpg);
-    height: 728px;
-     display:block;
+   height: 728px;
+   display: block;
+   max-width: 100%;
+   display: 100%;
+ 
+
+   
    
     background-size: cover;
     opacity: 0.70;
    
 }
 
-#banner-design{
+section div#banner-design{
    text-align: center;
   
    padding-top: 217px;
    padding-bottom: 217px;
    
+   
+
+   
+}
+section div#banner-design h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+section div#banner-design h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 29px;
+    text-transform: uppercase;
+
+}
+section div#banner-design p{
+    font-size: 16px;
+    font-weight: 400;
+    
 }
    
-.banner .container img{
+section.banner  div.container img{
     display: block;
+ 
     margin: auto;
+     margin-top: 67px ;
  }
- .banner .container a{
+ section.banner  div.container a{
     display: block;
+    color:#0b1016;
+    
+    background-color: #cfc91d;
+    width: 195px;
+    height: 46px;
+    margin: auto;
+    padding: 12px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-top: 52px;
+    text-transform: uppercase;
  }
+
+
+section.about p b{
+    font-size: 23px;
+    font-weight: 900;
+}
+section.about div.card-p{
+    border-left: 2px solid black;
+}
+
+    
+ 
+ section.services{
+    background-image:  url(../image/background.jpg);
+    background-size: cover;
+    height: 728px;
+    width: 100%;
+    
+ }
+input{
+    display: block;
+    width: 100%;
+    color: white;
+    
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+
+input::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    color:#505255;
+}
+input{
+    background-color: #0a0a0b;
+    width: 100%;
+    
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 69px; 
+
+}
+form textarea{
+    background-color: #0a0a0b; 
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+    
+
+}
+form textarea::placeholder{
+    color:#505255;
+    text-transform: uppercase;
+    scroll-behavior: fixed;
+    text-align: center;
+}
+div.black{
+    background-color: #0a0a0b; 
+    
+}
+button#btn{
+    background-color: #cfc91d;
+    width: 197px;
+    height:46px ;
+    display: block;
+   
+    margin: auto;
+    margin-top: 120px;
+    align-items: center;
+    margin-bottom: 120px;
+    
+    
+   
+   
+}
+rl{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+
+
+#banner::before{
+    content: '';
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+}
+div.containor img{
+    position: relative;
+    z-index: -1;
+}
+
+footer{
+    background-color: black;
+    color: white;
+     text-align: center;
+    
+}
